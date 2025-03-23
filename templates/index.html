@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Match Mania</title>
+    <link rel="shortcut icon" type="image/jpg" href="Images/fevicon.PNG"/>
+    <link rel="stylesheet" href="static/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="static/script.js"></script>
+    <style>
+        body {
+            font-size: 18px; /* Increase overall font size */
+        }
+        #title {
+            font-size: 24px; /* Increase title font size */
+            height: 60px; /* Increase title div height */
+            line-height: 60px; /* Center text vertically */
+        }
+        #moves, #time {
+            font-size: 20px; /* Increase moves and time font size */
+        }
+        table {
+            font-size: 22px; /* Increase table font size */
+        }
+        .grid-change-button, .exit-button {
+            font-size: 20px; /* Increase button font size */
+            padding: 10px 20px; /* Increase button padding */
+        }
+        #ol {
+            font-size: 20px; /* increase overlay font size */
+        }
+    </style>
+</head>
+<body>
+    <div id="ol"></div>
+    <div style="height: 10px;"></div>
+    <div id="title">
+        <span id="logo">Memory Match Mania</span>
+    </div>
+
+    <div id="title" style="height: 60px;">
+        <span id="moves"></span>
+        <span id="time"></span>
+    </div>
+
+    <center>
+        <table cellspacing="0"></table>
+    </center>
+
+    <div id="gameButtons">
+        <button id="changeGridSize" class="grid-change-button">Back</button>
+        <button id="exitGame" class="exit-button">Exit Game</button>
+    </div>
+</body>
+</html>
