@@ -20,3 +20,18 @@ Memory Game is a web-based application that challenges users to match pairs of c
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/SahilB2k/MemoryGame.git
+
+
+## AWS Instance Summary
+![WhatsApp Image 2025-04-09 at 21 38 00_3f46d76a](https://github.com/user-attachments/assets/c99e3a68-0ead-4ef9-9dc6-193aabc9eeee)
+
+## Deploy Web App
+![WhatsApp Image 2025-04-10 at 00 42 35_5d9908a8](https://github.com/user-attachments/assets/b7604335-12cc-4082-9d34-8d18923d083a)
+
+
+
+
+
+
+
+   
